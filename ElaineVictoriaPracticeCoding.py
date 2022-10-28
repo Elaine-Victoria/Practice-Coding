@@ -132,9 +132,18 @@ print("\n")
 print("---------------------------------------------------------------------------------")     
 print("\n")
 
+#sort descending
 mlsupplist = ["rafaela", "estes", "diggie", "angela", "carmilla", "floryn"]
 mlsupplist.sort(reverse = True)
 print(mlsupplist)
+print("\n") 
+print("---------------------------------------------------------------------------------")     
+print("\n")
+
+#reverse order
+thislist = mlsupplist = ["rafaela", "estes", "diggie", "angela", "carmilla", "floryn"]
+thislist.reverse()
+print(thislist)
 print("\n") 
 print("---------------------------------------------------------------------------------")     
 print("\n")
