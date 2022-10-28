@@ -147,3 +147,12 @@ print(thislist)
 print("\n") 
 print("---------------------------------------------------------------------------------")     
 print("\n")
+
+#tuple
+mlmageheroestuple = ("pharsa", "eudora", "odette", "yve", "lou yi", "aurora", "cecilion")
+print(mlmageheroestuple)
+print("\n") 
+print("---------------------------------------------------------------------------------")     
+print("\n")
+
+#
