@@ -11,8 +11,6 @@ print(x)
 print(y)
 print(z)
 print("\n") 
-print("---------------------------------------------------------------------------------")     
-print("\n")
 
 #one value to multiple variables
 x = y = z = "cat"
@@ -43,16 +41,19 @@ print("\n")
 #output variables
 x = "Goodmorning!"
 print(x)
+print("\n")
 
 x = "I"
 y = "am"
 z = "Elaine"
 print(x, y, z)
+print("\n")
 
 x = "Information"
 y = "Technology"
 z = "Student"
 print(x, y, z)
+print("\n")
 
 x = 18
 y = 1
@@ -82,8 +83,6 @@ txt = "You are going to make it, Trust me. PSALM 23"
 if "Isiah 60:22 " not in txt:
   print("No, 'Isiah 60:22' is NOT present.")
 print("\n") 
-print("---------------------------------------------------------------------------------")     
-print("\n")
 
 #slicing strings
 b = "Hi Im Eleyna!"
@@ -92,8 +91,6 @@ print(b[:2])
 b = "Hi Im Eleyna!"
 print(b[-4:-1])
 print("\n") 
-print("---------------------------------------------------------------------------------")     
-print("\n")
 
 #modify strings
 a = "meow meow"
@@ -102,8 +99,6 @@ print(a.upper())
 a = "MEOW MEOW"
 print(a.lower())
 print("\n") 
-print("---------------------------------------------------------------------------------")     
-print("\n")
 
 #replace string
 a = "Hi Im Eleyna!"
@@ -113,8 +108,6 @@ print(a.replace("Eleyna", "Elaine"))
 a = "Im, Elaine!"
 print(a.split(","))
 print("\n") 
-print("---------------------------------------------------------------------------------")     
-print("\n")
 
 #string concatenation
 a = "Information "
@@ -129,16 +122,12 @@ print("\n")
 mlsuppherolist = ["rafaela", "estes", "diggie", "angela", "carmilla", "floryn"]
 print(mlsuppherolist)
 print("\n") 
-print("---------------------------------------------------------------------------------")     
-print("\n")
 
 #sort descending
 mlsupplist = ["rafaela", "estes", "diggie", "angela", "carmilla", "floryn"]
 mlsupplist.sort(reverse = True)
 print(mlsupplist)
 print("\n") 
-print("---------------------------------------------------------------------------------")     
-print("\n")
 
 #reverse order
 thislist = mlsupplist = ["rafaela", "estes", "diggie", "angela", "carmilla", "floryn"]
@@ -148,16 +137,18 @@ print("\n")
 print("---------------------------------------------------------------------------------")     
 print("\n")
 
+
 #tuple
 mlmageheroestuple = ("pharsa", "eudora", "odette", "yve", "lou yi", "aurora", "cecilion")
 print(mlmageheroestuple)
-print("\n") 
-print("---------------------------------------------------------------------------------")     
 print("\n")
 
 #tuple length
 mlmageheroestuple = ("pharsa", "eudora", "odette", "yve", "lou yi", "aurora", "cecilion")
 print(len(mlmageheroestuple))
 print("\n") 
-print("---------------------------------------------------------------------------------")     
+
+#access tuple item
+mlmageheroestuple = ("pharsa", "eudora", "odette", "yve", "lou yi", "aurora", "cecilion")
+print(mlmageheroestuple[0])
 print("\n")
